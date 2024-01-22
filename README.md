@@ -15,3 +15,6 @@ When running the sketch, we only need a serial console.
 With PlatformIO we can use the command pio device monitor, but we can also use any other app. One I love is CoolTerm from Roger Meier:
 https://freeware.the-meiers.org  
 Don't forget to modify the "if (advertisedDevice.haveName() && advertisedDevice.getName() == "Beurer GL50EVO" && advertisedDevice.getAddress().toString() == "ed:ac:3e:ea:54:ff")" line to suit your situation.  
+
+This repository is now obsolete. I have a new one [here](https://github.com/N0ury/ESP32-GL50_EVO-NimBLE) that uses NimBLE.
+It's a new library actively maintained.
